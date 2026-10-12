@@ -1,0 +1,178 @@
+{
+  "triades": {
+    "images": [
+      "./assets/images/img1.png",
+      "./assets/images/img2.png"
+    ],
+    "title": "Tríades",
+    "segments": [
+      {
+        "type": "text",
+        "text": "Uma tríade é, obrigatoriamente, um acorde estruturalmente montado em uma sucessão de terças e composto por 3 notas: a Fundamental, uma Terça e uma Quinta. Observe o exemplo:"
+      },
+      {
+        "type": "image",
+        "src": "./assets/images/img1.png"
+      },
+      {
+        "type": "text",
+        "text": "Neste exemplo acima, podemos observar que há 3 notas em uma sucessão de terças: de Dó a Mi temos uma terça, e de Mi a Sol temos mais uma terça. Isso, portanto, representa as condições para que esse acorde seja uma tríade."
+      },
+      {
+        "type": "text",
+        "text": "Veja outro exemplo:"
+      },
+      {
+        "type": "image",
+        "src": "./assets/images/img2.png"
+      },
+      {
+        "type": "text",
+        "text": "Neste exemplo, embora tenhamos 3 notas: Ré, Sol e Dó, elas não formam uma sucessão de terças. Portanto, este acorde não é uma tríade."
+      },
+      {
+        "type": "text",
+        "text": "Também é importante lembrar que a ocorrência de acidentes nas notas do acorde (# ou b, por exemplo) não altera em nada quanto a ele ser ou não uma tríade, pois o que importa para sabermos se o acorde é uma tríade é a classificação básica dos intervalos entre as notas serem terças. Os acidentes geram alterações somente na classificação completa de um intervalo (quanto às terças serem menores ou maiores, por exemplo)."
+      }
+    ],
+    "paragraphs": [
+      "Uma tríade é, obrigatoriamente, um acorde estruturalmente montado em uma sucessão de terças e composto por 3 notas: a Fundamental, uma Terça e uma Quinta. Observe o exemplo:",
+      "Neste exemplo acima, podemos observar que há 3 notas em uma sucessão de terças: de Dó a Mi temos uma terça, e de Mi a Sol temos mais uma terça. Isso, portanto, representa as condições para que esse acorde seja uma tríade.",
+      "Veja outro exemplo:",
+      "Neste exemplo, embora tenhamos 3 notas: Ré, Sol e Dó, elas não formam uma sucessão de terças. Portanto, este acorde não é uma tríade.",
+      "Também é importante lembrar que a ocorrência de acidentes nas notas do acorde (# ou b, por exemplo) não altera em nada quanto a ele ser ou não uma tríade, pois o que importa para sabermos se o acorde é uma tríade é a classificação básica dos intervalos entre as notas serem terças. Os acidentes geram alterações somente na classificação completa de um intervalo (quanto às terças serem menores ou maiores, por exemplo)."
+    ]
+  },
+  "tetrades": {
+    "images": [
+      "./assets/images/img3.png",
+      "./assets/images/img4.png"
+    ],
+    "title": "Tétrades",
+    "segments": [
+      {
+        "type": "text",
+        "text": "Uma tétrade é, obrigatoriamente, um acorde estruturalmente montado em uma sucessão de terças e composto por 4 notas: a Fundamental, uma Terça, uma Quinta e uma Sétima. Observe o exemplo:"
+      },
+      {
+        "type": "image",
+        "src": "./assets/images/img3.png"
+      },
+      {
+        "type": "text",
+        "text": "Neste exemplo acima, podemos observar que há 4 notas em uma sucessão de terças: de Dó a Mi temos uma terça, de Mi a Sol temos mais uma terça, e de Sol a Si temos a última terça. Isso, portanto, representa as condições para que esse acorde seja uma tétrade."
+      },
+      {
+        "type": "text",
+        "text": "Veja outro exemplo:"
+      },
+      {
+        "type": "image",
+        "src": "./assets/images/img4.png"
+      },
+      {
+        "type": "text",
+        "text": "Neste exemplo, embora tenhamos 4 notas: Fá, Sol, Si e Mi, elas não formam uma sucessão de terças. Portanto, este acorde não é uma tétrade."
+      },
+      {
+        "type": "text",
+        "text": "Assim como já comentado anteriormente, quaisquer ocorrências de acidentes não alterariam a condição de um acorde ser ou não uma tétrade. Basta que os intervalos entre as notas sejam terças, não importando, nesse momento, se essas terças são maiores ou menores."
+      }
+    ],
+    "paragraphs": [
+      "Uma tétrade é, obrigatoriamente, um acorde estruturalmente montado em uma sucessão de terças e composto por 4 notas: a Fundamental, uma Terça, uma Quinta e uma Sétima. Observe o exemplo:",
+      "Neste exemplo acima, podemos observar que há 4 notas em uma sucessão de terças: de Dó a Mi temos uma terça, de Mi a Sol temos mais uma terça, e de Sol a Si temos a última terça. Isso, portanto, representa as condições para que esse acorde seja uma tétrade.",
+      "Veja outro exemplo:",
+      "Neste exemplo, embora tenhamos 4 notas: Fá, Sol, Si e Mi, elas não formam uma sucessão de terças. Portanto, este acorde não é uma tétrade.",
+      "Assim como já comentado anteriormente, quaisquer ocorrências de acidentes não alterariam a condição de um acorde ser ou não uma tétrade. Basta que os intervalos entre as notas sejam terças, não importando, nesse momento, se essas terças são maiores ou menores."
+    ]
+  },
+  "cifras": {
+    "images": [
+      "./assets/images/img7.png",
+      "./assets/images/img6.png",
+      "./assets/images/img9.png"
+    ],
+    "title": "Cifras",
+    "segments": [
+      {
+        "type": "text",
+        "text": "A cifra é uma maneira alternativa de realizar a notação de notas e acordes. Nela são utilizadas letras do alfabeto (em maiúsculo) para se representar as notas ou as fundamentais dos acordes, com a seguinte relação:"
+      },
+      {
+        "type": "image",
+        "src": "./assets/images/img7.png"
+      },
+      {
+        "type": "text",
+        "text": "Para os demais intervalos da tríade ou tétrade, temos outras definições que podem fazer uso de letras e números para indicar quais são os intervalos que compõem o acorde."
+      },
+      {
+        "type": "text",
+        "text": "Observe os exemplos de acordes no quadro a seguir. Eles representam todas as possibilidades de construção de acordes no aplicativo, conforme abordado anteriormente no item Montagem de Acordes."
+      },
+      {
+        "type": "image",
+        "src": "./assets/images/img6.png"
+      },
+      {
+        "type": "text",
+        "text": "Confira no quadro abaixo o significado de cada cifra:"
+      },
+      {
+        "type": "image",
+        "src": "./assets/images/img9.png"
+      }
+    ],
+    "paragraphs": [
+      "A cifra é uma maneira alternativa de realizar a notação de notas e acordes. Nela são utilizadas letras do alfabeto (em maiúsculo) para se representar as notas ou as fundamentais dos acordes, com a seguinte relação:",
+      "Para os demais intervalos da tríade ou tétrade, temos outras definições que podem fazer uso de letras e números para indicar quais são os intervalos que compõem o acorde.",
+      "Observe os exemplos de acordes no quadro a seguir. Eles representam todas as possibilidades de construção de acordes no aplicativo, conforme abordado anteriormente no item Montagem de Acordes.",
+      "Confira no quadro abaixo o significado de cada cifra:"
+    ]
+  },
+  "montagem": {
+    "images": [
+      "./assets/images/img5_1.png",
+      "./assets/images/img5_2.png",
+      "./assets/images/img5_3.png",
+      "./assets/images/img8.png"
+    ],
+    "title": "Montagem de Acordes",
+    "segments": [
+      {
+        "type": "text",
+        "text": "Nesse item você verá todas as possibilidades de montagem de tríades e tétrades que estão presentes no aplicativo, mostrando quais combinações de terças resultam em quais acordes."
+      },
+      {
+        "type": "text",
+        "text": "Todos os exemplos de acordes elaborados estão montados e escritos em Dó, para facilitar a visualização e a comparação entre eles. No entanto, para montar outros acordes bastaria modificar a nota fundamental e manter a estrutura dos intervalos de terça, gerando uma nova Terça e uma nova Quinta (e uma nova Sétima, nas tétrades)."
+      },
+      {
+        "type": "image",
+        "src": "./assets/images/img5_1.png"
+      },
+      {
+        "type": "image",
+        "src": "./assets/images/img5_2.png"
+      },
+      {
+        "type": "image",
+        "src": "./assets/images/img5_3.png"
+      },
+      {
+        "type": "text",
+        "text": "Confira o quadro que reúne as montagens de tríades e tétrades exemplificadas:"
+      },
+      {
+        "type": "image",
+        "src": "./assets/images/img8.png"
+      }
+    ],
+    "paragraphs": [
+      "Nesse item você verá todas as possibilidades de montagem de tríades e tétrades que estão presentes no aplicativo, mostrando quais combinações de terças resultam em quais acordes.",
+      "Todos os exemplos de acordes elaborados estão montados e escritos em Dó, para facilitar a visualização e a comparação entre eles. No entanto, para montar outros acordes bastaria modificar a nota fundamental e manter a estrutura dos intervalos de terça, gerando uma nova Terça e uma nova Quinta (e uma nova Sétima, nas tétrades).",
+      "Confira o quadro que reúne as montagens de tríades e tétrades exemplificadas:"
+    ]
+  }
+}
