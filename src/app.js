@@ -9,7 +9,7 @@ const combinations = {
   'minor/perfect/none':'minor', 'minor/perfect/major':'minorMajor7', 'minor/perfect/minor':'minor7',
   'minor/diminished/none':'diminished', 'minor/diminished/minor':'halfDiminished', 'minor/diminished/diminished':'diminished7'
 };
-const lessonOrder = ['triades','tetrades','cifras','montagem'];
+const lessonOrder = ['triades','tetrades','montagem','cifras'];
 let selection = {...defaults}, saved = [], current, audioContext, voices = [], statusTimer, playbackToken=0, lessons, lessonKey = 'triades';
 const backgroundAudio = new Audio();
 backgroundAudio.loop = true;
@@ -147,7 +147,7 @@ $('background').addEventListener('change',async()=>{
   const value=$('background').value; backgroundAudio.pause();
   $('background-toggle').disabled=value==='off';$('background-status').textContent='';
   if(value==='off'){backgroundAudio.removeAttribute('src');backgroundAudio.load();return;}
-  backgroundAudio.src=`./assets/audio/bg${value}.mp3`; await playBackground();
+  backgroundAudio.src=value==='menu'?'./assets/audio/menu.ogg':`./assets/audio/bg${value}.ogg`; await playBackground();
 });
 $('background-toggle').addEventListener('click',()=>{if(backgroundAudio.paused)playBackground();else{backgroundAudio.pause();$('background-toggle').textContent='Reproduzir';}});
 backgroundAudio.addEventListener('error',()=>{$('background-status').textContent='Não foi possível carregar esta trilha.';$('background-toggle').disabled=true;});
@@ -187,10 +187,11 @@ async function showLesson(key) {
 }
 document.querySelectorAll('[data-lesson]').forEach(button=>button.addEventListener('click',()=>showLesson(button.dataset.lesson)));
 function route() {
-  const hash=location.hash.slice(1), page=['criar','fundamentos','sobre'].includes(hash)?hash:'criar';
-  for(const name of ['criar','fundamentos','sobre']) $('page-'+name).hidden=name!==page;
+  const hash=location.hash.slice(1), page=['criar','fundamentos','sobre'].includes(hash)?hash:'menu';
+  document.body.dataset.page=page;
+  for(const name of ['menu','criar','fundamentos','sobre']) $('page-'+name).hidden=name!==page;
   document.querySelectorAll('[data-page]').forEach(link=>{const active=link.dataset.page===page;link.classList.toggle('active',active);if(active)link.setAttribute('aria-current','page');else link.removeAttribute('aria-current');});
-  document.title=`${{criar:'Criar acorde',fundamentos:'Fundamentos',sobre:'Sobre o projeto'}[page]} · T-Acordes`;
+  document.title=page==='menu'?'T-Acordes':`${{criar:'Criar acorde',fundamentos:'Fundamentos',sobre:'Sobre o projeto'}[page]} · T-Acordes`;
   stopNotes(false);
   if(page==='fundamentos')showLesson(lessonKey);
 }

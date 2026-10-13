@@ -1,4 +1,12 @@
-# Reconstrução do APK
+# Reconstrução de T-Acordes
+
+## Atualização baseada no Windows
+
+Em 13/10/2026, o executável `T-Acordes.exe` e o pacote `T-AcordesDeploy4.zip` foram conferidos por SHA-256 e correspondem à análise REA e observação em execução previamente realizadas. A atualização web recupera logo, fundos, botões, diagramas e trilhas diretamente dessa extração Windows. Os capítulos seguem a ordem Tríades, Tétrades, Montagem de acordes e Cifras. A navegação inicia no menu.
+
+Os modos publicados são Criar Acorde e Fundamentos. A presença de GameController no assembly não significa um modo jogável: não existem componentes ligados a esse script nas cenas publicadas, e a execução confirmou o construtor e a teoria. Veja [identidade e observação](original-windows.md), [ligações estáticas](scene-verification.md) e [recuperação de recursos](asset-recovery.md). Partitura dinâmica, favoritos e síntese de acordes são adaptações web explícitas.
+
+## Análise Android anterior
 
 APK de referência: T-Acordes.apk, Unity 3.4.1f5, C# e Mono, ARM de 32 bits.
 

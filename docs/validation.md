@@ -1,14 +1,13 @@
-# Validação
+# Validação da atualização Windows
 
-Em 12/10/2026:
+Verificada em 13/10/2026.
 
-- Seis testes automatizados da lógica musical passaram: grafia de tríades, sétima diminuta com bemol duplo, intervalos e inversões de todas as fundamentais/tipos, comparação de notas, afinação e SVG, geração de acordes válidos.
-- As 11 combinações do original foram selecionadas na interface real do navegador; todas produziram as cifras esperadas em Dó.
-- Fá sustenido maior com sétima maior produziu Fá♯, Lá♯, Dó♯ e Mi♯.
-- Favorito e seleção atual foram preservados após recarregar a página.
-- Reprodução de acorde e parada foram verificadas pelos estados da interface; reprodução da trilha original foi iniciada com ação explícita e pausada.
-- Capítulos Tríades e Montagem de acordes carregaram textos e links dos diagramas na ordem original.
-- Tela de 390 × 844 foi verificada: controles legíveis, layout em coluna e ausência de transbordamento horizontal.
-- Nenhum erro ou aviso foi registrado no console durante essas verificações.
+- Os hashes do EXE e ZIP fornecidos coincidem com a análise REA e observação do Windows já registradas em original-windows.md.
+- npm test: seis testes passaram; grafia de tríades e tétrades, todas as 17 fundamentais/11 qualidades, inversões, enarmonia, afinação e SVG.
+- Navegador: menu → Criar Acorde, seleção de Cdim7 mostrou Dó–Mi♭–Sol♭–Si♭♭, reprodução de acorde e arpejo iniciou sem erro. Alterar Mi♭ para fundamental Fá ajustou o acidente a natural conforme a restrição original Fá♭.
+- Fundamentos: os quatro capítulos carregaram textos e diagramas Windows. Imagens de Tríades foram verificadas como carregadas.
+- Trilha Menu original: selecionada e iniciada com o botão Reproduzir, que mudou para Pausar. Os controles de trilha permanecem disponíveis em todas as telas.
+- Tela móvel 390×844: menu e construtor empilhados; largura útil/rolagem ambas 375 px, sem transbordamento horizontal. O fundo foi ajustado nas telas de conteúdo para preservar contraste na rolagem.
+- Console do navegador sem erros ou avisos no percurso observado. Verificação sintática do app.js e git diff --check passaram.
 
-Os testes de áudio verificam início de reprodução e estados do navegador, não uma avaliação acústica com microfone. Não foi feito teste físico em todos os dispositivos móveis nem comparação em execução com o APK.
+Os testes do motor musical não demonstram a existência de um jogo no executável. A versão Windows examinada publica o construtor e a teoria, como descrito na análise das cenas. A interface web adapta os controles para navegação por teclado e celular; não afirma fidelidade pixel a pixel.
